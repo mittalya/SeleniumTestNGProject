@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<!-- <test name ="ChromeTest">
+  <parameter name ="browser" value = "Chrome" />
+    <classes>
+      <class name="BaseTest.BaseTest"/>
+    </classes>
+    </test>
+    <test name ="FirefoxTest">
+  <parameter name ="browser" value = "Firefox" />
+   <groups>
+         <define name = "all">
+            <exclude name = "A"/>
+            <include name = "Sanity Test"/>
+         </define>
+
+         <run>
+            <include name = "all"/>
+         </run>
+      </groups>
+    <classes>
+      <class name="TestCases.Login"/>
+      <class name="TestCases.LoginwithDataprovider"/>
+    </classes>
+    </test> -->
+    
+    <test name ="LoginTest">
+  <parameter name ="browser" value = "IE" />
+  <parameter name ="url" value = "http://ussltc7495v.dev.sltc.com/ibmcognos/bi/" />
+    <classes>
+      <class name="TestCases.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="LoginTest(failed)">
+    <parameter name="browser" value="IE"/>
+    <parameter name="url" value="http://ussltc7495v.dev.sltc.com/ibmcognos/bi/"/>
+    <classes>
+      <class name="TestCases.Login">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestLoginPass" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestCases.Login -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

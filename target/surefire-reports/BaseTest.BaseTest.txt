@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: BaseTest.BaseTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.453 sec <<< FAILURE! - in BaseTest.BaseTest
+beforeTest(BaseTest.BaseTest)  Time elapsed: 1.157 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+
+
