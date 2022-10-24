@@ -16,7 +16,7 @@ public class DbConnection {
 	 private static Statement stmt;
 	 public static String dburl = "jdbc:mysql://localhost:3306/login";
 	 public static String user = "root";
-	 public static String Pass = "Password0!";
+	 public static String Pass = "";
  
 	 @Test
   public void test() {try {
